@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOMBilling</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <caption><b>BILLING AMOUNT</b></caption>
+    <form>
+    <div class="main-div">
+        <div class="sub-div">
+            <div class="bill-div">
+                <label>GrossAmount</label>
+                <input type="number" id="GrossAmount"/>
+            </div>
+            <div class="bill-div">
+                <label>Discount Amount</label>
+                <input type="number" id="DisAmount" onblur="AfterDisAmountBill()"/>
+            </div>
+            <div class="bill-div">
+                <label>After Discount Amount</label>
+                <input type="number" id="AfterDisAmount"/>
+            </div>
+            <div class="bill-div">
+                <label>Tax %</label>
+                <input type="number" id="Tax" onblur="AfterTaxBill()"/>
+            </div>
+            <div class="bill-div">
+                <label>After Tax Amount</label>
+                <input type="number" id="AfterTax"/>
+            </div>
+            <div class="bill-div">
+                <label>Tip Amount</label>
+                <input type="number" id="TipAmount" onblur="NetAmountBill()"/>
+            </div>
+            <div class="bill-div">
+                <label>Net Amount</label>
+                <input type="number" id="NetAmount"/>
+            </div>
+            <div class="bill-div">
+                <label>Split (No of Persons)</label>
+                <input type="number" id="Split" onblur="AfterSplitBill()"/>
+            </div>
+            <div class="bill-div">
+                <label>Split Bill</label>
+                <input type="number" id="SplitBill"/>
+            </div>
+            <div class="buttonGroup">
+                <button class="reset">Reset</button>
+                <button class="pay" onclick="Payment()">Pay</button>
+            </div>
+        </div>
+    </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

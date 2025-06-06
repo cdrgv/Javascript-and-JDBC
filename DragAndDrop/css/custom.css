@@ -1,0 +1,19 @@
+ #formElements {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .draggables {
+      padding: 10px;
+      border: 1px solid #ccc;
+      cursor: grab;
+      background-color: #f9f9f9;
+      width: fit-content;
+    }
+    #formContainer {
+      width: 100%;
+      min-height: 200px;
+      border: 2px dashed #aaa;
+      padding: 10px;
+    }

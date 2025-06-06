@@ -1,0 +1,41 @@
+body{
+    background-color: blue;
+    padding: 20px;
+    justify-items: center;
+    margin: auto;
+    color: white;
+}
+.main-div{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.bill-div{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border-radius: 10px;
+}
+.buttonGroup{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+button{
+    border-radius: 20px;
+}
+.reset{
+    background-color: red;
+    color: white;
+}
+.pay{
+    background-color: green;
+    color: white;
+}

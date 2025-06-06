@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    justify-items: center;
+}
+.main{
+    margin-top: 50%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    border:unset;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
+    align-items: center;
+    justify-items: center;
+}
+h1{
+    color: red;
+    font-size: 60px;
+}
+h2{
+    color: blue;
+    font-size: 25px;
+}
+.gnum{
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 20px;
+    font-size: 20px;
+    border: unset;
+}
+.guessbtn{
+    margin-top: 20px;
+    border: unset;
+    margin-bottom: 20px;
+    background-color: red;
+    color: green;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: ease-in,1s;
+}
+.guessbtn:hover{
+    background-color: green;
+    color: red;
+    transition: ease-in,1s;
+}
+.msg1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
