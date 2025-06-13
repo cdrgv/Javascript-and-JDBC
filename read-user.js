@@ -1,0 +1,6 @@
+const { use } = require("react")
+const readLineSync=require("readline-sync")
+const username=readLineSync.question("What is your name :")
+const age=readLineSync.question("What is your age : ")
+console.log(username)
+console.log(age)
